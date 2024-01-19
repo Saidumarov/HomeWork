@@ -107,3 +107,84 @@
 //   }
 // }
 // console.log(ob);
+
+// obj 9--------------------
+
+// function getNameMaxAge(age) {
+//   let maxAgePerson = people[0];
+//   for (let i = 1; i < age.length; i++) {
+//     if (people[i].age > maxAgePerson.age) {
+//       maxAgePerson = people[i];
+//     }
+//   }
+//   console.log(maxAgePerson.name);
+// }
+// const people = [
+//   { name: "Sultonqul", age: 23 },
+//   { name: "Erkin", age: 20 },
+//   { name: "Temur", age: 21 },
+// ];
+// getNameMaxAge(people);
+
+// obj 10--------------------
+// let arr = [7, 8, 4, 5, 7, 5, 4, 8, 5, 4, 7, 9];
+// let countObj = {};
+
+// for (let i of arr) {
+//   if (countObj[i]) {
+//     countObj[i]++;
+//   } else {
+//     countObj[i] = 1;
+//   }
+// }
+
+// console.log(countObj);
+
+// obj 11--------------------
+
+// let number = 8945472985629;
+// let str = number.toString();
+// let a = "";
+// let obj = {};
+// for (let i of str) {
+//   a += i;
+// }
+// obj["birlar"] = a.slice(-3);
+// obj["minglar"] = a.slice(-6, -3);
+// obj["millionlar"] = a.slice(-9, -6);
+// obj["milliardlar"] = a.slice(-12, -9);
+// obj["trilionlar"] = a.slice(-15, -12);
+
+// console.log(obj);
+
+// obj 12--------------------
+
+// const books = [
+//   {
+//     title: "Halqa",
+//     author: "Akrom Malik",
+//     alreadyRead: false,
+//   },
+//   {
+//     title: "Dunyo ishlari",
+//     author: "O'tkir Hoshimov",
+//     alreadyRead: true,
+//   },
+//   {
+//     title: "Vaqtning qadri",
+//     author: "Abdulfattoh Abu G'udda",
+//     alreadyRead: false,
+//   },
+// ];
+
+// for (let i of books) {
+//   if (i.alreadyRead === true) {
+//     console.log(
+//       i.author + "ning " + '"' + i.title + '"' + " kitobi " + " o'qilgan"
+//     );
+//   } else {
+//     console.log(
+//       i.author + "ning " + '"' + i.title + '"' + " kitobi " + " o'qilmagan"
+//     );
+//   }
+// }
