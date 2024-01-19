@@ -268,3 +268,169 @@
 // console.log(b);
 // let a = eval(b);
 // console.log(a);
+
+// obj 19--------------------
+
+// const right_answers = {
+//   1: "B",
+//   2: "A",
+//   3: "C",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "A",
+//   8: "D",
+//   9: "A",
+//   10: "B",
+// };
+// const my_answers = {
+//   1: "C",
+//   2: "A",
+//   3: "D",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "B",
+//   8: "C",
+//   9: "A",
+//   10: "C",
+// };
+
+// let value = Object.values(right_answers);
+// let value1 = Object.values(my_answers);
+// let arr = [];
+// for (let i in value) {
+//   arr.push(value1[i] === value[i]);
+// }
+// let count = 0;
+// for (let i of arr) {
+//   if (i === true) {
+//     i = 1;
+//     count += i;
+//   }
+// }
+// console.log("Shuncha topgan " + count);
+
+// obj 20--------------------
+// let n = 3;
+// let obj = { a: 2, b: 3, c: 4, d: 6 };
+// let obj1 = {};
+// for (let key in obj) {
+//   obj1[key] = obj[key] * n;
+// }
+// console.log(obj1);
+
+// obj 21--------------------
+
+// obj 22--------------------
+// obj 23--------------------
+// const pupils = [
+//   {
+//     name: "Elbek",
+//     protcent: 95,
+//   },
+//   {
+//     name: "Zafar",
+//     protcent: 78,
+//   },
+//   {
+//     name: "Aziz",
+//     protcent: 83,
+//   },
+//   {
+//     name: "Jasur",
+//     protcent: 88,
+//   },
+//   {
+//     name: "Bobur",
+//     protcent: 66,
+//   },
+//   {
+//     name: "Kamron",
+//     protcent: 75,
+//   },
+// ];
+
+// for (let i of pupils) {
+//   let sum = i.protcent;
+//   if (sum >= 90 && sum < 100) {
+//     console.log(i.name + " bahosi 5");
+//   } else if (sum >= 80 && sum < 90) {
+//     console.log(i.name + " bahosi 4");
+//   } else if (sum >= 70 && sum < 80) {
+//     console.log(i.name + " bahosi 3");
+//   } else {
+//     console.log(i.name + " bahosi 2");
+//   }
+// }
+
+// obj 24--------------------
+// const pupils = [
+//   {
+//     name: "Elbek",
+//     protcent: 95,
+//   },
+//   {
+//     name: "Zafar",
+//     protcent: 78,
+//   },
+//   {
+//     name: "Aziz",
+//     protcent: 83,
+//   },
+//   {
+//     name: "Jasur",
+//     protcent: 88,
+//   },
+//   {
+//     name: "Bobur",
+//     protcent: 66,
+//   },
+//   {
+//     name: "Kamron",
+//     protcent: 75,
+//   },
+// ];
+
+// for (let i of pupils) {
+//   if (i.protcent >= 70) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+
+// obj 25--------------------
+
+// const pupils = [
+//   {
+//     name: "Elbek",
+//     protcent: 95,
+//   },
+//   {
+//     name: "Zafar",
+//     protcent: 78,
+//   },
+//   {
+//     name: "Aziz",
+//     protcent: 83,
+//   },
+//   {
+//     name: "Jasur",
+//     protcent: 88,
+//   },
+//   {
+//     name: "Bobur",
+//     protcent: 66,
+//   },
+//   {
+//     name: "Kamron",
+//     protcent: 75,
+//   },
+// ];
+
+// for (let i of pupils) {
+//   if (i.protcent >= 70) {
+//     console.log(i.name);
+//   }
+// }
