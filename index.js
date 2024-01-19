@@ -188,3 +188,83 @@
 //     );
 //   }
 // }
+
+// obj 13--------------------
+// const inputObj = { 1: 20, 2: 30, 3: 20, 4: 40, 5: 30, 6: 50, 7: 40, 8: 20 };
+
+// const outputObj = {};
+
+// for (const key in inputObj) {
+//   const value = inputObj[key];
+//   if (!outputObj[value]) {
+//     outputObj[value] = [parseInt(key)];
+//   } else {
+//     outputObj[value].push(parseInt(key));
+//   }
+// }
+
+// console.log(outputObj);
+
+// obj 14--------------------
+// const obj1 = { a: 3, b: 10, c: 5, d: 7 };
+// const obj2 = { a: 10, d: 4, e: 6, f: 15 };
+// const obj = {};
+
+// for (let i in obj1) {
+
+// }
+
+// obj 15--------------------
+
+// const products = [
+//   { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
+//   { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
+//   { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
+//   { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
+//   { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
+// ];
+
+// let count = 0;
+// for (let i of products) {
+//   count += i.price;
+// }
+
+// console.log(count);
+
+// obj 16--------------------
+
+// obj 17--------------------
+// const obj = {
+//   it: 20,
+//   mushuk: 10,
+//   sigir: 200,
+//   tovuq: 2,
+// };
+
+// let ob1 = Object.keys(obj);
+// let ob2 = Object.values(obj);
+// let arr = [];
+// for (let i = 0; i < ob1.length; i++) {
+//   arr.push(ob1[i], ob2[i]);
+// }
+// console.log(arr);
+
+// obj 18--------------------
+
+// const grades = [
+//   { name: "Fizika", grade: 4, kredit: 6 },
+//   { name: "Matematika", grade: 5, kredit: 6 },
+//   { name: "Tarix", grade: 4, kredit: 4 },
+//   { name: "Dasturlash", grade: 5, kredit: 8 },
+//   { name: "Kibrxavfsizlik", grade: 4, kredit: 8 },
+// ];
+// let str = "";
+// for (let i of grades) {
+//   str += `${i.grade}*${i.kredit}`;
+//   str += "+";
+// }
+
+// let b = str.slice(0, -1);
+// console.log(b);
+// let a = eval(b);
+// console.log(a);
