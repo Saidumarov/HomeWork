@@ -66,3 +66,44 @@
 //   }
 // }
 // console.log(res);
+
+// obj 7--------------------
+// let str = "Men Sultonqul Programmerning guruhlarida o’qiyman.";
+// let obj = {};
+// let ar = [];
+
+// let arr = str.split(" ");
+// for (let i of arr) {
+//   let wordLength = i.length;
+//   ar.push({ word: i, length: wordLength });
+// }
+// let maxValue = ar[0];
+// let minValue = ar[0];
+
+// for (let i = 1; i < ar.length; i++) {
+//   if (ar[i].length > maxValue.length) {
+//     maxValue = ar[i];
+//   }
+//   if (ar[i].length < minValue.length) {
+//     minValue = ar[i];
+//   }
+// }
+// let output = {
+//   minWord: minValue.word,
+//   maxWord: maxValue.word,
+// };
+
+// console.log(output);
+
+// obj 8--------------------
+
+// let obj = { a: false, b: 12, c: true, d: 0 };
+// let ob = {};
+
+// for (let key in obj) {
+//   let value = obj[key];
+//   if (value) {
+//     ob[key] = value;
+//   }
+// }
+// console.log(ob);
